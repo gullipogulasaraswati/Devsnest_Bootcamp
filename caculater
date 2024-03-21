@@ -1,0 +1,29 @@
+operation = input() 
+num1 = int(input())
+num2 = int(input())
+if operation == "add":
+    result = num1 + num2
+elif operation == "subtract":
+    result = num1 - num2
+elif operation == "multiply":
+    result = num1 * num2
+elif operation == "divide":
+    if num2 != 0:
+        result =num1 / num2
+    else:   
+        result="cannot be divided by zero"
+else:
+    result="invalid operation"
+print(result)
+
+
+
+ Input:
+    add
+    10 
+    3
+Output:
+    13
+Explanation:
+    The string 'add' represents the addition operation. Therefore, the next two numbers are added and printed to the console.
+           
