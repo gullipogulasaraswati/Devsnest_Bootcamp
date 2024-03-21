@@ -1,0 +1,26 @@
+side1=int(input())
+side2=int(input())
+side3=int(input())
+
+
+if side1 <=0 or side2 <=0 or side3 <=0:
+    result ="Not a valid triangle!"
+elif side1 + side2 <=side3 or side1 + side3 <= side2 or side2 + side3 <= side1:
+    result="Not a valid triangle!"
+elif side1==side2==side3:
+    result="Equilateral triangle"
+elif side1==side2 or side2==side3 or side3==side1:
+    result="Isosceles triangle"
+else:
+    result="Scalene triangle"
+
+print(result)
+
+
+
+Input:
+    5
+    5
+    3
+Output:
+    Isosceles triangle
