@@ -1,0 +1,14 @@
+input_string = input().strip()
+
+words = input_string.split(',')
+
+cleaned_words = [word.strip() for word in words]
+
+result_string = " ".join(cleaned_words)
+print(result_string)
+
+
+Input:
+    "   apple,  banana,  orange,   grapefruit, kiwi   "
+Output:
+    "apple banana orange grapefruit kiwi"
