@@ -1,0 +1,17 @@
+arr = [int(X) for X in input().split()]
+k = int(input())
+
+for i in range(len(arr), 0, -1):
+    if k == 0:
+        break
+    arr.pop()
+    k-=1
+    print(arr)
+
+
+Input:
+    6 1 4 0 9
+    2
+Output:
+    [6, 1, 4, 0]
+    [6, 1, 4]
