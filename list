@@ -1,0 +1,20 @@
+input_string = input().split()
+
+total_sum = 0
+count = 0
+
+for num_str in input_string:
+    total_sum += float(num_str)
+    count += 1
+
+average = total_sum / count
+
+print(average)
+
+
+
+Input:
+    2 1 2 4 5
+Output:
+    2.8
+Explanation: The total sum is calculated as 2 + 1 + 2 + 4 + 5, resulting in 14. The average would be 14 / 5 = 2.8. 
