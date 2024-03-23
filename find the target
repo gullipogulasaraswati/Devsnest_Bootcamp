@@ -1,0 +1,18 @@
+nums = [int(X) for X in input().split()]
+target = int(input().strip())
+
+result=-1
+
+for i in range(len(nums)):
+    if nums[i] == target:
+        result = i
+        break
+print(result)
+
+
+
+Input:
+    2 7 8 5 0 1
+    5
+Output:
+    3
