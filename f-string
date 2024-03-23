@@ -1,0 +1,11 @@
+name = input()
+age = int(input())
+print(f"Hello, {name}! You are {age} years old.") 
+
+
+
+Input:
+    Bob
+    25
+Output:
+    Hello, Bob! You are 25 years old.
