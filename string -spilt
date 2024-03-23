@@ -1,0 +1,14 @@
+s = input()
+d = input()
+words = s.split(d)
+print(words)
+
+
+
+
+
+Input:
+    add.subtract.multiply.divide
+    .
+Output:
+    ['add', 'subtract', 'multiply', 'divide']
